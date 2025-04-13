@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+.venv
+
+spark/*.mp4
+spark/winutils/
+spark/spark-3.5.5-bin-hadoop3/
