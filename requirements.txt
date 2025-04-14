@@ -3,3 +3,5 @@ pyspark
 findspark
 jupyter
 openjdk=11
+plotly
+matplotlib
