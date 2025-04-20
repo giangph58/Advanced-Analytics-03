@@ -2,10 +2,15 @@
 pyspark
 findspark
 jupyter
-openjdk==11
+# openjdk==11
 plotly
 matplotlib
 seaborn
 scikit-learn
-transformers
 torch
+datasets
+transformers
+sentence-transformers
+tqdm
+numpy
+polars
