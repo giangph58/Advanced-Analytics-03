@@ -13,4 +13,6 @@ transformers
 sentence-transformers
 tqdm
 numpy
-polars
+nltk
+skore
+adapters
