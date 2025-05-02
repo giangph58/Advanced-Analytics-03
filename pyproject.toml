@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "accelerate>=1.6.0",
     "adapters>=1.1.1",
     "datasets>=3.5.1",
     "findspark>=2.0.1",
@@ -23,4 +24,5 @@ dependencies = [
     "torch>=2.7.0",
     "tqdm>=4.67.1",
     "transformers>=4.48.3",
+    "xgboost>=3.0.0",
 ]

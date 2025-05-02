@@ -18,3 +18,5 @@ skore
 adapters
 ipykernel
 ipywidgets
+accelerate
+xgboost
