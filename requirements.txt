@@ -20,3 +20,4 @@ ipykernel
 ipywidgets
 accelerate
 xgboost
+setfit
