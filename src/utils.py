@@ -1,3 +1,6 @@
+from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
+import matplotlib.pyplot as plt
+
 # Arxiv high-level category mapping
 arxiv_main_category = {
     "astro-ph": [
@@ -79,3 +82,14 @@ category_to_parent = {child: parent for parent, children in arxiv_main_category.
 # Define a Python function for mapping (no need for UDF in pandas)
 def map_category(category):
     return category_to_parent.get(category, "other")
+
+
+def plot_confusion_matrix(y_preds, y_true, labels):
+    cm = confusion_matrix(y_true, y_preds, normalize="true")
+    fig, ax = plt.subplots(figsize=(10, 10))
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+    disp.plot(cmap="Blues", values_format=".2f", ax=ax, colorbar=False)
+    plt.title("Normalized confusion matrix")
+    plt.xticks(rotation=30, ha="right")
+    plt.show()
+
