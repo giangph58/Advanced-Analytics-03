@@ -7,7 +7,4 @@ spark/*.mp4
 spark/winutils/
 spark/spark-3.5.5-bin-hadoop3/
 
-allenai/
-answerdotai/
-checkpoints/
-distilbert-base-uncased-finetuned-arxiv/
+models/
