@@ -9,3 +9,4 @@ spark/spark-3.5.5-bin-hadoop3/
 
 models/
 data/processed/cpt_data
+data/processed/all_stream_data

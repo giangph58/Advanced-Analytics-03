@@ -15,24 +15,24 @@ arxiv_main_category = {
     "gr-qc": [
         "gr-qc"
     ],
-    "hep-ex": ["hep-ex"],
-    "hep-lat": ["hep-lat"],
-    "hep-ph": ["hep-ph"],
-    "hep-th": ["hep-th"],
-    # "hep": [
-    #     "hep-ex", "hep-lat", "hep-ph", "hep-th"
-    # ],
+    # "hep-ex": ["hep-ex"],
+    # "hep-lat": ["hep-lat"],
+    # "hep-ph": ["hep-ph"],
+    # "hep-th": ["hep-th"],
+    "hep": [
+        "hep-ex", "hep-lat", "hep-ph", "hep-th"
+    ],
     "math-ph": [
         "math-ph"
     ],
     "nlin": [
         "nlin.AO", "nlin.CG", "nlin.CD", "nlin.SI", "nlin.PS"
     ],
-    "nucl-ex": ["nucl-ex"],
-    "nucl-th": ["nucl-th"],
-    # "nucl": [
-        # "nucl-ex", "nucl-th"
-    # ],
+    # "nucl-ex": ["nucl-ex"],
+    # "nucl-th": ["nucl-th"],
+    "nucl": [
+        "nucl-ex", "nucl-th"
+    ],
     "quant-ph": [
         "quant-ph"
     ],
