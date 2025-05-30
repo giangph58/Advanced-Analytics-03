@@ -21,3 +21,4 @@ ipywidgets
 accelerate
 xgboost
 setfit
+tensorboard
