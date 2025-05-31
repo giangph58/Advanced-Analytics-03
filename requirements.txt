@@ -22,3 +22,8 @@ accelerate
 xgboost
 setfit
 tensorboard
+optimum[onnxruntime]
+# onnx onnxruntime
+fastapi
+pydantic
+uvicorn
